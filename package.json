@@ -1,0 +1,33 @@
+{
+  "name": "mist-password-recovery",
+  "version": "1.0.0",
+  "description": "Recover lost mist wallet passwords",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brutebrothers/mist-wallet-recovery.git"
+  },
+  "keywords": [
+    "mist",
+    "wallet",
+    "password",
+    "recovery"
+  ],
+  "author": "Brute Brothers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brutebrothers/mist-wallet-recovery/issues"
+  },
+  "homepage": "https://github.com/brutebrothers/mist-wallet-recovery#readme",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "ethereumjs-util": "^7.0.2",
+    "scryptsy": "^2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}
